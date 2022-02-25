@@ -9,3 +9,20 @@ body {
 .card mb-3 {
   background-color: lightgrey;
 }
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.idol {
+  margin-top: 50%
+}
+.bg-warning {
+    background-color: lavender!important;
+}
