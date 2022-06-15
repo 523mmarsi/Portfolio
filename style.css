@@ -42,6 +42,7 @@ body {
   display: table;
   clear: both;
 }
+\.img
 
 /*portfolio page hover*/
 .image {
@@ -103,4 +104,34 @@ body {
   border: 0;
   margin-top: 15px;
   background-color: #e30503;
+}
+
+.heading {
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
+a.nav-link.active {
+  background-color: red !important;
+}
+
+.nav-link {
+  color: black;
+}
+
+.btn {
+   margin-bottom: 20px;
+}
+
+.textfield {
+  width: 50%;
+  margin-top: 10px;
+}
+
+.namefield {
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-color: red;
+  font-size: 20px;
 }
